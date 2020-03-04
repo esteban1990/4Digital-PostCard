@@ -1,0 +1,68 @@
+body{
+
+    background: black;
+    padding: 50px;
+    margin:50px;
+}
+
+.container{
+    background: white;
+    width:500px;
+    height: 300px;
+    margin:30px auto;
+    padding:10px;
+}
+
+
+.container .card-header{
+    float: right;
+    width: 100%;
+
+}
+
+.container .card-header h1{
+    float:left;
+}
+
+.container .card-header img{
+    float:right;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.container .card-body{
+    width:250px;
+    height:180px;
+    float:left;
+}
+.container .card-body p{
+    padding-left:10px;
+    padding-right:10px;
+    font-family: serif;
+}
+.container .inputs{
+    width:250px;
+    height: 180px;
+    float: right;
+
+}
+
+input[type="text"]{
+    border:0;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.boton{
+    width:100%;
+    height:60px;
+    text-align: center;
+}
+
+.boton input[type="button"] {
+
+    background: chartreuse;
+    height: 30px;
+    font-weight: bold;
+}
